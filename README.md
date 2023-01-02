@@ -35,9 +35,9 @@
 
 ## :one: Chapter I
 
-[Desafio 1](https://github.com/YagoVela/ignite-reactjs/tree/main/Chapter%20I/ignite-reactjs-desafio-1): Challenge about ReactJS concepts.
+[Challenge 1](https://github.com/YagoVela/ignite-reactjs/tree/main/Chapter%20I/ignite-reactjs-desafio-1): Challenge about ReactJS concepts.
 
-[Desafio 2](https://github.com/YagoVela/ignite-reactjs/tree/main/Chapter%20I/ignite-reactjs-desafio-2): Componentization challenge.
+[Challenge 2](https://github.com/YagoVela/ignite-reactjs/tree/main/Chapter%20I/ignite-reactjs-desafio-2): Componentization challenge.
 
 # :closed_book: License
 
