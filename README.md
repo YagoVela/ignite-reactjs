@@ -10,19 +10,16 @@
   <img alt="License" src="https://img.shields.io/badge/license-MIT-01B755">
 </p>
 
-> Repositório onde se encontra todos os projetos desenvolvidos na trilha de ReactJS do Ignite da [Rocketseat](https://github.com/Rocketseat).
-# :pushpin: Conteúdo
+> Repository where all the projects developed in [Rocketseat](https://github.com/Rocketseat) Ignite ReactJS track can be found. 
+# :pushpin: Contents
 
-- [Projetos](#rocket-projetos)
+- [Projects](#rocket-projetos)
   - [Chapter I](#one-chapter-i)
     - [Github Explorer](#github-explorer)
-  - [Desafios](#atom_symbol-desafios)
-  - [Chapter I](#one-chapter-i)
+  - [Challenges](#atom_symbol-desafios)
+- [License](#closed_book-licença)
 
-- [Autores](#computer-autores)
-- [Licença](#closed_book-licença)
-
-# :rocket: Projetos
+# :rocket: Projects
 
 ## :one: Chapter I
 
@@ -34,14 +31,14 @@
    </a>
 </p>
 
-# :atom_symbol: Desafios
+# :atom_symbol: Challenges
 
 ## :one: Chapter I
 
-[Desafio 1](https://github.com/YagoVela/ignite-reactjs/tree/main/Chapter%20I/ignite-reactjs-desafio-1): Desafio sobre os conceitos.
+[Desafio 1](https://github.com/YagoVela/ignite-reactjs/tree/main/Chapter%20I/ignite-reactjs-desafio-1): Challenge about ReactJS concepts.
 
-[Desafio 2](https://github.com/YagoVela/ignite-reactjs/tree/main/Chapter%20I/ignite-reactjs-desafio-2): Desafio de componentização.
+[Desafio 2](https://github.com/YagoVela/ignite-reactjs/tree/main/Chapter%20I/ignite-reactjs-desafio-2): Componentization challenge.
 
-# :closed_book: Licença
+# :closed_book: License
 
-Este projeto está sob a licença [MIT](./LICENSE).
+This project is licensed [MIT](./LICENSE).
