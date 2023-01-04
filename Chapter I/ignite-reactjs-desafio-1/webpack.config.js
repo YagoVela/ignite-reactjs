@@ -16,11 +16,11 @@ module.exports = {
     extensions: ['.js', '.jsx', '.ts', '.tsx']
   },
   devServer: {
-    static: path.resolve(__dirname, 'public'),
+    contentBase: path.resolve(__dirname, 'public'),
     hot: true,
   },
   plugins: [
-    isDevelopment && new ReactRefreshWebpackPlugin(),
+    isDevelopment && new ReactRefreshWebpackPlugin(),  
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, 'public', 'index.html')
     })
@@ -43,14 +43,6 @@ module.exports = {
         test: /\.scss$/,
         exclude: /node_modules/,
         use: ['style-loader', 'css-loader', 'sass-loader']
-      },
-      {
-        test: /\.(png|jpe?g|gif|svg)$/i,
-        use: [
-          {
-            loader: 'file-loader',
-          },
-        ],
       },
     ]
   }
