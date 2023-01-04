@@ -40,7 +40,7 @@ This project was made using the following technologies:
 # :construction_worker: Running
 
 ```bash
-# Clone o Repositório
+# Clone the Repository
 $ git@github.com:YagoVela/ignite-reactjs.git
 ```
 
@@ -49,12 +49,12 @@ $ git@github.com:YagoVela/ignite-reactjs.git
 ```
 
 ```bash
-# Acesse a pasta do projeto
+# Access the project folder
 $ cd 01-dt-money
 ```
 
 ```bash
-# Baixe as dependendências
+# Download dependencies
 $ yarn
 ```
 
