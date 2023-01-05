@@ -16,6 +16,8 @@
 - [Projects](#rocket-projetos)
   - [Chapter I](#one-chapter-i)
     - [Github Explorer](#github-explorer)
+  - [Chapter II](#two-chapter-ii)
+    - [DT Money](#dt-money)
   - [Challenges](#atom_symbol-desafios)
 - [License](#closed_book-licença)
 
@@ -31,13 +33,27 @@
    </a>
 </p>
 
+## :two: Chapter II
+
+### DT Money
+
+<p align="center">
+  <a href="https://github.com/YagoVela/ignite-reactjs/tree/main/Chapter%20II/01-dt-money">
+     <img src="https://raw.githubusercontent.com/tavareshenrique/ignite-reactjs/a68fa5dbdd2952a73fcc6df5c88c1fc3c7cdd4b8/02-dtmoney/src/assets/logo.svg" alt="DT Money" width="280"/>
+   </a>
+</p>
+
 # :atom_symbol: Challenges
 
 ## :one: Chapter I
 
-[Challenge 1](https://github.com/YagoVela/ignite-reactjs/tree/main/Chapter%20I/ignite-reactjs-desafio-1): Challenge about ReactJS concepts.
+[Challenge 1](https://github.com/YagoVela/ignite-reactjs-desafio-1): Challenge about ReactJS concepts.
 
-[Challenge 2](https://github.com/YagoVela/ignite-reactjs/tree/main/Chapter%20I/ignite-reactjs-desafio-2): Componentization challenge.
+[Challenge 2](https://github.com/YagoVela/ignite-reactjs-desafio-2): Componentization challenge.
+
+## :two: Chapter II
+
+[Challenge 3](https://github.com/YagoVela/ignite-reactjs-desafio-3): Challenge using hooks.
 
 # :closed_book: License
 
