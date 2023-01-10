@@ -16,6 +16,8 @@
     "next-auth": "^3.13.3",
     "react-icons": "^4.2.0",
     "faunadb": "^4.1.2",
+    "axios": "^0.21.1",
+    "@stripe/stripe-js": "^1.13.2",
     "stripe": "^8.139.0"
   },
   "devDependencies": {
