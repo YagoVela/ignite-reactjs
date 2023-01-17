@@ -43,6 +43,16 @@
    </a>
 </p>
 
+## :three: Chapter III
+
+### ig.news
+
+<p align="center">
+  <a href="https://github.com/YagoVela/ignite-reactjs/tree/main/Chapter%20III/01-ignews">
+     <img src="https://raw.githubusercontent.com/tavareshenrique/ignite-reactjs/aefbfbe096e8817899c9f2b731aef8e4f130d26e/03-ignews/public/images/logo.svg" alt="ig.news" width="280"/>
+   </a>
+</p>
+
 # :atom_symbol: Challenges
 
 ## :one: Chapter I
@@ -54,6 +64,8 @@
 ## :two: Chapter II
 
 [Challenge 3](https://github.com/YagoVela/ignite-reactjs-desafio-3): Challenge using hooks.
+
+## :three: Chapter III
 
 # :closed_book: License
 
