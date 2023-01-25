@@ -11,13 +11,13 @@ export function Input({ name, label, ...rest }: InputProps) {
       {!!label && <FormLabel htmlFor={name}>{label}</FormLabel>}
 
       <ChakraInput
-        id={name}
         name={name}
+        id={name}
         focusBorderColor="pink.500"
-        bg="gray.900"
+        bgColor="gray.900"
         variant="filled"
         _hover={{
-          bgColor: "gray.900",
+          bgColor: 'gray.900',
         }}
         size="lg"
         {...rest}
