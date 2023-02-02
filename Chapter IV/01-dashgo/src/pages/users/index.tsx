@@ -1,7 +1,4 @@
-import { useEffect } from "react";
 import Link from "next/link";
-import { useQuery } from "react-query";
-
 import {
   Box,
   Button,
@@ -24,29 +21,10 @@ import { RiAddLine } from "react-icons/ri";
 import { Header } from "../../components/Header";
 import { Sidebar } from "../../components/Sidebar";
 import { Pagination } from "../../components/Pagination";
+import { useUsers } from "../../service/hooks/useUsers";
 
 export default function UserList() {
-  const { data, isLoading, error } = useQuery("users", async () => {
-    const response = await fetch("http://localhost:3000/api/users");
-    const data = await response.json();
-
-    const users = data.users.map(user => {
-      return {
-        id: user.id,
-        name: user.name,
-        email: user.email,
-        createdAt: new Date(user.createdAt).toLocaleString('pt-BR', {
-          day: '2-digit',
-          month: 'long',
-          year: "numeric"
-        })
-      }
-    })
-
-    return users;
-  }, {
-    staleTime: 1000 * 5, // 5 seconds
-  });
+  const { data, isLoading, isFetching, error } = useUsers()
 
   const isWideVersion = useBreakpointValue({
     base: false,
@@ -64,6 +42,9 @@ export default function UserList() {
           <Flex mb="8" justify="space-between" align="center">
             <Heading size="lg" fontWeight="normal">
               Usuários
+              {!isLoading && isFetching && (
+                <Spinner size="sm" color="gray.500" ml="4" />
+              )}
             </Heading>
 
             <Link href="/users/create" passHref>
@@ -84,7 +65,7 @@ export default function UserList() {
             </Flex>
           ) : error ? (
             <Flex justify="center">
-              <Text>Falaha ao obter dados do usuários. </Text>
+              <Text>Falha ao obter dados do usuários. </Text>
             </Flex>
           ) : (
             <>
